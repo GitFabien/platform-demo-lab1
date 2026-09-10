@@ -1,8 +1,8 @@
 name: CI
 on:
   pull_request:
+      branches: [main]
   workflow_call:
-    branches: [main]
 jobs:
   test:
     runs-on: ubuntu-latest
