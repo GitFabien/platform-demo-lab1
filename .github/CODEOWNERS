@@ -1,11 +1,11 @@
-# Propriétaire par défaut
-* @adrienliliandoualla-byte
+ # Propriétaire par défaut
+* @aldi-octet
 
 # Configuration des workflows
-/.github/ @adrienliliandoualla-byte
+/.github/ @aldi-octet
 
 # Code d'application
-/SRC/ @adrienliliandoualla-byte
+/src/ @aldi-octet
 
 # Tests
-/Test/ @adrienliliandoualla-byte
+/test/ @aldi-octet
