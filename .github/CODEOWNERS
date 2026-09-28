@@ -1,14 +1,14 @@
 # Default owner
-* @GitFabien
+* @TealOrchid
 
 # Platform configuration
-/.github/ @GitFabien
+/.github/ @TealOrchid
 
 # Application code
-/src/ @GitFabien
+/src/ @adawnium
 
 # Tests
-/test/ @GitFabien
+/test/ @blanche699
 
 # Deployment configuration
-/deploy/ @GitFabien
+/deploy/ @smashanto
