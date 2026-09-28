@@ -1,14 +1,16 @@
 # Default owner
-* @GitFabien
+* @JonahhMJ 
+* @RomainL14
+* @Josi05
 
 # Platform configuration
-/.github/ @GitFabien
+/.github/ @JonahhMJ @RomainL14 @Josi05
 
 # Application code
-/src/ @GitFabien
+/src/ @JonahhMJ @RomainL14 @Josi05
 
 # Tests
-/test/ @GitFabien
+/test/ @JonahhMJ @RomainL14 @Josi05
 
 # Deployment configuration
-/deploy/ @GitFabien
+/deploy/ @JonahhMJ @RomainL14 @Josi05
