@@ -1,0 +1,9 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  platform-ci:
+    uses: ./.github/workflows/docker.yml

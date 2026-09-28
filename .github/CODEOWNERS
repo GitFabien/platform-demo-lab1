@@ -1,14 +1,14 @@
 # Default owner
-* @GitFabien
+* @SlimaneSidi
 
 # Platform configuration
-/.github/ @GitFabien
+/.github/ @SlimaneSidi
 
 # Application code
-/src/ @GitFabien
+/src/ @SlimaneSidi
 
 # Tests
-/test/ @GitFabien
+/test/ @SlimaneSidi
 
 # Deployment configuration
-/deploy/ @GitFabien
+/deploy/ @SlimaneSidi
