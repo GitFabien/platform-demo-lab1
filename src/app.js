@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
 });
 server.listen(PORT, () => console.log(`${APP_NAME} listening on ${PORT}.`));
 if (req.url === "/version") {
-      res.writeHead(200);
-      res.end(JSON.stringify({ "service": "platform-demo", "version": "1.0.0" }));
-      return;
-    }
+  res.writeHead(200);
+  res.end(JSON.stringify({ "service": "platform-demo", "version": "1.0.0" }));
+  return;
+}
