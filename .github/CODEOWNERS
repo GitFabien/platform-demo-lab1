@@ -1,14 +1,2 @@
 # Default owner
-* @GitFabien
-
-# Platform configuration
-/.github/ @GitFabien
-
-# Application code
-/src/ @GitFabien
-
-# Tests
-/test/ @GitFabien
-
-# Deployment configuration
-/deploy/ @GitFabien
+* @MELI0-dot
