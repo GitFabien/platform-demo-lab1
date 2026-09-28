@@ -1,6 +1,18 @@
 {
-  "name":"platform-demo","version":"1.0.0","private":true,
-  "description":"GitHub platform engineering lab","main":"src/app.js",
-  "scripts":{"start":"node src/app.js","test":"node --test"},
-  "engines":{"node":">=20"}
+  "name": "platform-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub platform engineering lab",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "supertest": "^7.3.0"
+  }
 }
