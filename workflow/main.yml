@@ -1,0 +1,7 @@
+name: Mon Application CI
+on: [push, pull_request]
+
+jobs:
+  platform-ci:
+    # On appelle le workflow situé dans le même dépôt
+    uses: ./.github/workflows/ci-reusable.yml
