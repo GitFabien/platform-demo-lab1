@@ -2,13 +2,13 @@
 * @GitFabien
 
 # Platform configuration
-/.github/ @GitFabien
+/.github/ @mahutonbks
 
 # Application code
-/src/ @GitFabien
+/src/ @kalypso27
 
 # Tests
-/test/ @GitFabien
+/test/ @aldi-octet
 
 # Deployment configuration
-/deploy/ @GitFabien
+/deploy/ @honoree
