@@ -1,14 +1,15 @@
 # Default owner
 * @GitFabien
+* @matteSata
 
 # Platform configuration
-/.github/ @GitFabien
+/.github/ @matteSata
 
 # Application code
-/src/ @GitFabien
+/src/ @matteSata
 
 # Tests
-/test/ @GitFabien
+/test/ @matteSata
 
 # Deployment configuration
-/deploy/ @GitFabien
+/deploy/ @matteSata
