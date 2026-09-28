@@ -1,14 +1,11 @@
-# Default owner
-* @GitFabien
+# Propriétaire par défaut
+* @adrienliliandoualla-byte
 
-# Platform configuration
-/.github/ @GitFabien
+# Configuration des workflows
+/.github/ @adrienliliandoualla-byte
 
-# Application code
-/src/ @GitFabien
+# Code d'application
+/SRC/ @adrienliliandoualla-byte
 
 # Tests
-/test/ @GitFabien
-
-# Deployment configuration
-/deploy/ @GitFabien
+/Test/ @adrienliliandoualla-byte
