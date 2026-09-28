@@ -5,7 +5,6 @@ const server = http.createServer((req, res) => {
   res.setHeader("Content-Type", "application/json");
   if (req.url === "/") {
     res.writeHead(200);
-    console.log('modif app.js')
     res.end(
       JSON.stringify({
         service: APP_NAME,
