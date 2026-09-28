@@ -1,14 +1,14 @@
 # Default owner
-* @GitFabien
+* @solinechnt @ambreRch @maylissbm
 
 # Platform configuration
-/.github/ @GitFabien
+/.github/ @solinechnt
 
 # Application code
-/src/ @GitFabien
+/src/ @maylissbm
 
 # Tests
-/test/ @GitFabien
+/test/ @ambreRch
 
 # Deployment configuration
-/deploy/ @GitFabien
+/deploy/ @solinechnt
