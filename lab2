@@ -1,0 +1,21 @@
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verifier que les fichiers existent
+        run: test -f Dockerfile && test -f index.html
+
+  docker:
+    needs: test
+    permissions:
+      contents: read
+      packages: write
+    uses: ./.github/workflows/docker.yml
