@@ -1,7 +1,9 @@
 name: Docker Build
 
 on:
-  workflow_call:
+  push:
+    branches: [main]
+  pull_request:
 
 env:
   REGISTRY: ghcr.io
