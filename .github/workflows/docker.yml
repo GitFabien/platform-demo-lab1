@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ghcr.io/slimanesidi/platform-demo:latest
+  IMAGE_NAME: slimanesidi/platform-demo
 
 jobs:
   build:
