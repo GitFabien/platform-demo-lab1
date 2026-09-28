@@ -22,4 +22,8 @@ const server = http.createServer((req, res) => {
   res.end(JSON.stringify({ error: "not found" }));
 });
 server.listen(PORT, () => console.log(`${APP_NAME} listening on ${PORT}.`));
-{"service":"platform-demo","version":"1.0.0"}
+if (req.url === "/version") {
+      res.writeHead(200);
+      res.end(JSON.stringify({ "service": "platform-demo", "version": "1.0.0" }));
+      return;
+    }
