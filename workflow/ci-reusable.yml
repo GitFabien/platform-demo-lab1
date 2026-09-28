@@ -1,6 +1,6 @@
 name: Reusable CI Workflow
 on: 
-  workflow_call: # Indispensable pour qu'il soit réutilisable
+  workflow_call:
 
 jobs:
   build-and-push:
