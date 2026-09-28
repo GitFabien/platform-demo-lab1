@@ -13,12 +13,16 @@ const server = http.createServer((req, res) => {
     );
     return;
   }
-  if (req.url === "/health") {
+  if (req.url === "/version") {
     res.writeHead(200);
-    res.end(JSON.stringify({ status: "ok" }));
+    res.end(JSON.stringify({ service: APP_NAME, version: "1.0.0" }));
     return;
   }
   res.writeHead(404);
   res.end(JSON.stringify({ error: "not found" }));
 });
-server.listen(PORT, () => console.log(`${APP_NAME} listening on ${PORT}.`));
+if (require.main === module) {
+  server.listen(PORT, () => console.log(`${APP_NAME} listening on ${PORT}.`));
+}
+
+module.exports = server;

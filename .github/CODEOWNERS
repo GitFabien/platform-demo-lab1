@@ -1,14 +1,14 @@
 # Default owner
-* @GitFabien
+* @tebrtkova-dotcom
 
 # Platform configuration
-/.github/ @GitFabien
+/.github/ @tebrtkova-dotcom
 
 # Application code
-/src/ @GitFabien
+/src/ @tebrtkova-dotcom
 
 # Tests
-/test/ @GitFabien
+/test/ @tebrtkova-dotcom
 
 # Deployment configuration
-/deploy/ @GitFabien
+/deploy/ @tebrtkova-dotcom
