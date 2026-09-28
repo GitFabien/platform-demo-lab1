@@ -1,3 +1,4 @@
+
 name: CI Reutilisable
  
 on:
@@ -26,3 +27,4 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/${{ github.repository }}/platform-demo:latest
+EOF
