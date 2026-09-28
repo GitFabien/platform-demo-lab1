@@ -1,0 +1,14 @@
+name: Workflow CI juliesgd05
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Message de validation
+        run: echo "Le workflow réutilisable de juliesgd05 est exécuté !"
