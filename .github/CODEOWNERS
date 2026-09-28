@@ -1,14 +1,11 @@
-# Default owner
-* @GitFabien
+ # Propriétaire par défaut
+* @aldi-octet
 
-# Platform configuration
-/.github/ @GitFabien
+# Configuration des workflows
+/.github/ @aldi-octet
 
-# Application code
-/src/ @GitFabien
+# Code d'application
+/src/ @aldi-octet
 
 # Tests
-/test/ @GitFabien
-
-# Deployment configuration
-/deploy/ @GitFabien
+/test/ @aldi-octet
