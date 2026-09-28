@@ -1,22 +1,21 @@
 What changed?
-This PR adds a new GET /version endpoint to the service and includes a test covering the response.
+Describe the update in a few sentences.
 
 Why?
-The application needs a simple version endpoint for observability and deployment validation. This matches the task requirements and provides a stable API contract for clients and automation.
+Explain the problem this solves or the reason for the change.
 
 Testing?
-[ ] Ran the project test suite with npm test
-[ ] Verified the /version endpoint responds with the expected JSON payload
-[ ] Confirmed the response uses the correct service name and version
+What did you test?
+[ ] Local tests run
+[ ] Manual verification performed
+[ ] Edge cases considered
 
 Risks?
-Low risk: this is a small additive API change.
-No existing routes are modified; the new endpoint is isolated to /version.
-There is minimal operational impact beyond exposing the version metadata.
+What could go wrong? Any follow-up work or known limitations?
 
 Checklist
-[ ] Feature implemented
-[ ] Test added
-[ ] Existing behavior checked
-[ ] Documentation not required for this change
-[ ] Ready for review
+[ ] I updated the relevant code
+[ ] I added or updated tests
+[ ] I verified the behavior locally
+[ ] I checked for regressions
+[ ] I documented any risks or follow-up items
