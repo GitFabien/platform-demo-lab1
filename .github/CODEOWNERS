@@ -1,14 +1,11 @@
 # Default owner
-* @GitFabien
+* @Studoud
 
 # Platform configuration
-/.github/ @GitFabien
+/.github/ @Studoud
 
 # Application code
-/src/ @GitFabien
+/src/ @Studoud
 
 # Tests
-/test/ @GitFabien
-
-# Deployment configuration
-/deploy/ @GitFabien
+/test/ @Studoud
